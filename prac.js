@@ -15,6 +15,12 @@ let values = [5, 12, 18, 25, 30, 35, 42, 8];
 let findAble=values.find(number=> number>10 && number<40 && number % 2 === 0);
 // console.log(findAble)
 
-let prices = [120, 250, 80, 450, 300];
-let check=prices.some(price=> price>400);
-console.log(check)
+// let prices = [120, 250, 80, 450, 300];
+// let check=prices.some(price=> price>400);
+// console.log(check)
+
+
+
+let scores = [65, 72, 80, 91, 55];
+let checking=scores.every(score=> score>50);
+console.log(checking)
