@@ -50,4 +50,11 @@ let foods = ["Rice", "Fish", "Vegetable"];
 // console.log(foods.join(", "))
 
 let names = ["Rakib", "Sakib", "Hasan", "Nabil"];
-console.log(names.join(" | "))
+// console.log(names.join(" | "))
+let data = ["JavaScript", "is", "very", "powerful"];
+// console.log(data.join(" "))
+
+let frontend = ["HTML", "CSS"];
+let backend = ["Node.js", "MongoDB"];
+let adding=frontend.concat(backend);
+console.log(adding)
