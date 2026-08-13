@@ -38,4 +38,16 @@ let tools = ["Git", "GitHub", "VS Code", "Node.js", "React"];
 // console.log(tools.indexOf("GitHub"))
 
 let cities = ["Dhaka", "Sylhet", "Chittagong", "Rajshahi"];
-console.log(cities.indexOf("Barishal"))
+// console.log(cities.indexOf("Barishal"))
+
+let words = ["I", "Love", "JavaScript"];
+// console.log(words.join(" "))
+
+let skills = ["HTML", "CSS", "JavaScript"];
+// console.log(skills.join(" - "))
+
+let foods = ["Rice", "Fish", "Vegetable"];
+// console.log(foods.join(", "))
+
+let names = ["Rakib", "Sakib", "Hasan", "Nabil"];
+console.log(names.join(" | "))
