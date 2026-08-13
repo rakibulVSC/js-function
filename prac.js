@@ -21,6 +21,21 @@ let findAble=values.find(number=> number>10 && number<40 && number % 2 === 0);
 
 
 
-let scores = [65, 72, 80, 91, 55];
-let checking=scores.every(score=> score>50);
-console.log(checking)
+// let scores = [65, 72, 80, 91, 55];
+// let checking=scores.every(score=> score>50);
+// console.log(checking)
+
+// let languages = ["HTML", "CSS", "JavaScript", "React"];
+// console.log(languages.includes('CSS'))
+
+
+
+// let subjects = ["Math", "English", "Physics", "Chemistry"];
+// console.log(subjects.indexOf('Physics'));
+
+
+let tools = ["Git", "GitHub", "VS Code", "Node.js", "React"];
+// console.log(tools.indexOf("GitHub"))
+
+let cities = ["Dhaka", "Sylhet", "Chittagong", "Rajshahi"];
+console.log(cities.indexOf("Barishal"))
