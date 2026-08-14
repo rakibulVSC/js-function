@@ -57,4 +57,26 @@ let data = ["JavaScript", "is", "very", "powerful"];
 let frontend = ["HTML", "CSS"];
 let backend = ["Node.js", "MongoDB"];
 let adding=frontend.concat(backend);
-console.log(adding)
+// console.log(adding)
+
+let basic = ["HTML", "CSS"];
+let advanced = ["JavaScript", "React"];
+let tool = ["Git", "GitHub"];
+
+let pro=basic.concat(advanced)
+let prolevel=pro.concat(tool)
+
+// console.log(prolevel)
+
+let a = ["A", "B"];
+let b = ["C", "D"];
+let c = ["E", "F"];
+let sum=a.concat(b,c);
+// console.log(sum)
+
+let html = ["HTML", "CSS"];
+let js = ["JavaScript", "React"];
+let server = ["Node.js", "Express"];
+let database = ["MongoDB"];
+let backener=html.concat(js,server,database);
+console.log(backener)
